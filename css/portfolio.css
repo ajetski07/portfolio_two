@@ -82,3 +82,7 @@ body {
     background-color: #00250080;
     color: #EBF5EE;
 }
+
+.card-title {
+    text-align: center;
+}
