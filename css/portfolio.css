@@ -1,0 +1,84 @@
+body {
+    font-family: "Montserrat", "Open San", "Roboto";
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url("../assets/Sunset\ Pano.jpg");
+    background-size: cover, auto, auto;
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav-bar {
+    background-color: #00250080;
+    color: #EBF5EE;
+}
+
+
+#nav-logo {
+    padding-left: 15px;
+}
+
+#nav-icon {
+    padding-left: 15px;
+}
+
+#main-section {
+    background-color: #00250080;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+#contact-form {
+    background-color: #00250080;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    flex: 1 0 auto;
+    text-align: center;
+    padding: 50px;
+    color: #EBF5EE;
+}
+
+#card-container {
+    margin-top: 65px;
+    margin-bottom: 65px;
+    flex: 1 0 auto;
+    text-align: center;
+}
+
+#contact-submit {
+    color: #EBF5EE;
+    background-color: #7c3238;
+}
+
+#contact-submit:hover {
+    color: #7c3238;
+    background-color: #EBF5EE;
+}
+
+#headshot {
+    margin: 40px 40px;
+    
+}
+
+#bio {
+    padding: 0px 10px;
+    color: #EBF5EE;
+}
+
+#page-footer {
+    background-color: #00250080;
+    bottom: 0;
+}
+
+#copyright {
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #00250080;
+    color: #EBF5EE;
+}
