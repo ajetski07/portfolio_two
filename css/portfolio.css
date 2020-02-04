@@ -85,6 +85,30 @@ body {
     bottom: 0;
 }
 
+#github {
+    color: #EBF5EE;
+}
+
+#github:hover {
+    color: #7c3238;
+}
+
+#linkedin {
+    color: #EBF5EE;
+}
+
+#linkedin:hover {
+    color: #7c3238;
+}
+
+#resume {
+    color: #EBF5EE;
+}
+
+#resume:hover {
+    color: #7c3238;
+}
+
 #copyright {
     padding-bottom: 10px;
 }
