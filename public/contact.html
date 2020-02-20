@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- google-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/portfolio.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- nav bar section -->
+    <nav id="nav-bar">
+        <div class="nav-wrapper">
+            <img src="https://img.icons8.com/ios-filled/64/000000/mountain.png" id="nav-icon">
+            <a href="/" class="brand-logo" id="nav-logo">Adam Jeske</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="./portfolio" id="nav-item">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container" id="contact-form">
+        <form class="col s12" name="contactform" method="post" action="send_form_email.php">
+            <div class="row">
+                <div class="input-field col s6">
+                    <input name="first_name" id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                </div>
+
+                <div class="input-field col s6">
+                    <input name="last_name" id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="email" id="email" type="text" class="validate">
+                    <label for="email_inline">Email</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s12">
+                    <input name="comments" id="input" type="text" class="validate">
+                    <label for="input_inline">Please Leave A Message</label>
+                </div>
+            </div>
+
+            <a class="waves-effect waves-light btn" id="contact-submit"
+                href="http://www.freecontactform.com/email_form.php">Submit</a>
+
+        </form>
+    </div>
+
+    <br>
+
+    <footer class="page-footer" id="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 id="footer-header">Personal Information</h5>
+                    <ul>
+                        <li><a href="https://docs.google.com/document/d/12Mit31FjHBmpMl9TXuXDRXGEHiI0P06ZwjILLsFJ2DM/edit?usp=sharing"
+                                target="_blank" id="resume">Resume</a></li>
+                    </ul>
+                    © 2020 | Adam Jeske
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 id="profile-header">Profiles</h5>
+                    <ul>
+                        <li><a href="https://github.com/ajetski07" target="_blank" id="github">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/adam-jeske-43b8aa60/" target="_blank"
+                                id="linkedin">LinkedIn</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

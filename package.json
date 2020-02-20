@@ -1,0 +1,27 @@
+{
+  "name": "portfolio_two",
+  "version": "1.0.0",
+  "description": "Adam Jeske Portfolio website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajetski07/portfolio_two.git"
+  },
+  "keywords": [
+    "ucd",
+    "portfolio"
+  ],
+  "author": "Adam Jeske",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajetski07/portfolio_two/issues"
+  },
+  "homepage": "https://github.com/ajetski07/portfolio_two#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
