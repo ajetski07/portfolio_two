@@ -23,7 +23,6 @@ module.exports = function (app) {
         res.sendFile(path.join(__dirname, "../public/portfolio.html"));
     });
 
-    // If no matching route is found default to home
     app.get("/contact", function (req, res) {
         res.sendFile(path.join(__dirname, "../public/contact.html"));
     });
