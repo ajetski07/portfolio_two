@@ -134,3 +134,7 @@ body {
 #cardlink:hover {
     color: #7c3238;
 }
+
+#side-nav {
+    float: right;
+}
