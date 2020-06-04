@@ -105,6 +105,14 @@ body {
     color: #7c3238;
 }
 
+#email {
+    color:#EBF5EE
+}
+
+#email:hover {
+    color: #7c3238
+}
+
 #resume {
     color: #EBF5EE;
 }
